@@ -1,0 +1,134 @@
+
+/*
+Theme Name: DotInstall
+Theme URI: html://dotinstall.com
+Author: the oz origin
+Author URI: http://wordpress.org/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+
+*/
+
+body{
+	font-size: 14px;
+	font-family: Arial,Verdana;
+	
+}
+a{
+	text-decoration: none;
+}
+p{
+	padding-bottom: 14px;
+	margin: 0;
+	line-height: 1.8;
+	
+}
+.container{
+	width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+/* header*/
+#header{
+	
+}
+h1{
+	font-weight: bold;
+	font-size: 18px;
+	padding: 15px 0;
+}
+.menu{
+	background: #f39800;
+	margin-bottom: 30px;
+	font-size: 12px;
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+}
+.menu > li{
+	float: left;
+	width: 150px;
+	text-align: center;
+}
+.menu a{
+	padding: 10px 0;
+	color: #fff;
+	display: block;
+}
+.menu a:hover{
+	background: #ffc35c;
+}
+ /*posts*/
+#posts {
+	float: left;
+	width: 635px;
+	
+}
+.post{
+	margin-bottom: 30px;
+	
+}
+.post-header{
+	margin-bottom: 15px;
+}
+.post-header h2{
+	font-size: 16px;
+	font-weight: bold;
+}
+.post-meta{
+	font-size: 12px;
+	padding: 7px 0;
+	color: #555;
+}
+.post-content{
+	overflow: hidden;
+}
+.post-imagee{
+	float: left;
+	width: 115px;
+}
+.post-body{
+	margin-left: 115px;
+}
+/*navigation */
+.navigation{
+	overflow: hidden;
+	padding: 10px 0;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+	.prev{
+		float: left;
+		width: 200px;
+		
+	}
+	.next{
+		float: right;
+		width: 200px;
+		text-align: right;
+	}
+/*sidebar*/
+#sidebar{
+	float: right;
+	width: 150px;
+}
+	.widget{
+		margin-bottom: 25px;
+	}
+	.widget h3{
+		font-weight: bold;
+		padding-bottom: 7px;
+	}
+	.widget li{
+		
+	}
+/*footer*/
+#footer{
+	text-align: center;
+	padding: 15px 0;
+	font-size: 12px;
+	color: #aaa;
+	border-top: 1px solid #ccc;
+	
+}
